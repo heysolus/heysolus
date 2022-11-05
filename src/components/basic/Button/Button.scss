@@ -1,0 +1,71 @@
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+    &.ant-btn-default {
+        background: white;
+    }
+
+    &.ant-btn-primary:not(.ant-btn-dangerous.ant-btn-primary) {
+        background: var(--light-mint);
+        border-color: var(--dark-mint);
+
+        &:hover,
+        &:focus,
+        &:active {
+            background: var(--light-mint-hovered);
+            border-color: var(--dark-mint);
+            color: white;
+        }
+    }
+
+    .anticon {
+        display: inline-grid;
+    }
+}
+
+.ant-btn {
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    border-radius: var(--border-radius);
+    // display: flex;
+    align-items: center;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+    color: var(--light-mint);
+    border-color: var(--light-mint);
+}
+
+.ant-btn-loading-icon {
+    align-items: center;
+    line-height: 0;
+
+    >span {
+        align-items: center;
+        vertical-align: middle;
+    }
+}
+
+.ant-btn-circle {
+    border-radius: 50%;
+}
+
+.ant-btn-round {
+    font-size: 12px;
+    border-radius: 28px;
+}
+
+.ant-btn-icon-only {
+    display: block;
+}
+
+.ant-btn .anticon.anticon-plus>svg,
+.ant-btn .anticon.anticon-minus>svg {
+    margin-top: -5px;
+}
+
+.anticon {
+    display: inline-grid;
+}
