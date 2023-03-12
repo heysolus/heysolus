@@ -1,0 +1,81 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.header img {
+    width: 120px;
+}
+
+.header a {
+    font-size: 16px;
+    color: #262626;
+    font-weight: 400;
+}
+
+.header a.button {
+    font-size: 14px;
+}
+
+a.button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    background-color: #1F2027;
+}
+
+.splash a.button {
+    padding: 16px 40px;
+    border-radius: 0;
+    font-weight: 200;
+    display: inline-block;
+}
+
+.splash .screenshot {
+    width: 600px;
+}
+
+.splash h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+}
+
+
+.hey-container {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .hey-container {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hey-container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hey-container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .hey-container {
+        max-width: 1280px;
+    }
+}
+
+.logos {}
+
+.logos p {
+    width: 90%;
+    font-size: 36;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+}
